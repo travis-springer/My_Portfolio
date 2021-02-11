@@ -1,0 +1,32 @@
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    background-color: #38b1c7;
+    color: #aa2f2f;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #aa2f2f;
+  }
