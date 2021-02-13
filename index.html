@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +9,94 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
     <header>
         <h1>Travis Springer</h1>
         <nav>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav>
+        </nav>
     </header>
+    <main>
+        <section id="about">
+            <h2>
+                About Travis
+            </h2>
+            <div class="about">
+                <img src="assets/images/TAS Headshot.jpg" alt="Headshot">
+                <ul>
+                    <li><strong>From:</strong> Dallas, TX</li>
+                    <li><strong>Education:</strong> BS Finance, Univeristy of Texas at Dallas</li>
+                    <li><strong>Current Employer:</strong> Sagiss LLC, Irving, TX</li>
+                    <li><strong>Current Position:</strong> Vice Presient</li>
+                    <p>
+                        I have been working in technology management for the past 5 years. My experience is primarily in
+                        network administration with special focus on Microsoft cloud products such as Microsoft 365 and
+                        Azure.
+                    </p>
+                    <p>
+                        Currently, I am broadening my skill set into full-stack application development to further my
+                        career and expand into new opportunities.
+                    </p>
+                </ul>
+            </div>
+        </section>
 
-    <about>
-        <h2>
-            About Travis
-        </h2>
-        <p>
-            Blah Blah Blah
-        </p>
-    </about>
+        <section id="projects" class="projects">
+            <h2>
+                Travis' Projects
+            </h2>
+            <div class="featuredProject">
+                <h3>
+                    Code Refactor
+                </h3>
+                <a href="https://travis-springer.github.io/Code_Refactor/" target="_blank"><img src="assets/images/code-image.jpg" alt="Code Refactor"></a>
+            </div>
+            <div class="sub-projects">
+                <div class="project-item">
+                    <h3>
+                        Example Project 1
+                    </h3>
+                    <a href="https://travis-springer.github.io/Code_Refactor/" target="_blank"><img src="assets/images/project-image1.jpg" alt="Code Refactor"></a>
+                </div>
+                <div class="project-item">
+                    <h3>
+                        Example Project 2
+                    </h3>
+                    <a href="https://travis-springer.github.io/Code_Refactor/" target="_blank"><img src="assets/images/project-image2.png" alt="Code Refactor"></a>
+                </div>
+            </div>
+        </section>
 
-    <projects>
-        <h2>
-            Travis' Projects
-        </h2>
-        <p>
-            Blah Blah Blah
-        </p>
-    </projects>
-
-    <contact>
-        <h2>
-            Contact Travis
-        </h2>
-        <ul>
-            <li>GitHub</li>
-            <li>Email</li>
-            <li>Phone Number</li>
-        </ul>
-    </contact>
+        <section id="contact">
+            <h2>
+                Contact Travis
+            </h2>
+            <div class="contact">
+                <div class="contact">
+                    <p><strong>GitHub:</strong> travis-springer</p>
+                    <a href="https://github.com/travis-springer" target="_blank"><img src="assets/images/GitHub-Logo.png"></a>
+                </div>
+                <div class="contact">
+                    <p><strong>LinkedIn:</strong> travisspringer</p>
+                    <a href="https://www.linkedin.com/in/travisspringer/" target="_blank"><img src="assets/images/linkedin-logo.png"></a>
+                </div>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:travis.springer@gmail.com">travis.springer@gmail.com</a>
+                </p>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>
-            This is the footer!
+            Made as part of SMU Full-Stack Bootcamp
         </p>
     </footer>
 </body>
+
 </html>
