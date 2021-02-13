@@ -20,6 +20,7 @@ h2 {
 h3 {
   font-size: 150%;
 }
+/* Header & Navigation Styles */
 
 header {
     display: flex;
@@ -52,6 +53,8 @@ nav a:hover {
     color: var(--alt-color);
   }
 
+/* About Section Styles*/
+
 .about {
   display: flex;
   justify-content: center;
@@ -77,6 +80,8 @@ nav a:hover {
 .about p {
   padding: 5px;
 }
+
+/* Project Section Styles */
 
 .projects {
   background-color: gray;
@@ -130,6 +135,8 @@ nav a:hover {
   text-align: center;
 }
 
+/* Contact Section Styles */
+
 .contact {
   display: flex;
   justify-content: center;
@@ -145,6 +152,8 @@ nav a:hover {
 .contact p {
   padding: 5px;
 }
+
+/* Footer Styles */
 
 footer{
   padding: 2%;
