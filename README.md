@@ -14,4 +14,4 @@ https://travis-springer.github.io/My_Portfolio/
 
 ## Screenshot
 
-![My Portfolio Screenshot](assets/images/screenshot.jpg)
+![My Portfolio Screenshot](assets/images/screenshot.png)
